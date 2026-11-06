@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    overflow: hidden;
+    background-color: #0f172a;
+  }
+
+  .font-display {
+    font-family: 'Jua', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.text-stroke-dark {
+  -webkit-text-stroke: 3px #231815;
+  paint-order: stroke fill;
+}
+
+.text-stroke-sm {
+  -webkit-text-stroke: 2px #231815;
+  paint-order: stroke fill;
+}
+
